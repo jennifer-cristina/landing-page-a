@@ -38,16 +38,50 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-#learn-more{
-    width: 200px;
+#instagram{
+    font-size: clamp(20px, 5vw, 20px);
+    width: 170px;
     height: 40px; 
-    background-color: #FAE12C;
+    background-color: beige;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    
+}
+
+.Link{
+    font-size: clamp(10px, 5vw, 20px);
+    width: 170px;
+    height: 40px;
+    background-color: beige;
+    border-style: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.github{
+    font-size: clamp(10px, 5vw, 20px);
+    width: 170px;
+    height: 40px;
+    background-color: beige;
+    border-style: none;
+    border-radius: 7px;
     cursor: pointer;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 1000;
-    
+}
+
+#linha{
+    font-size: clamp(10px, 5vw, 20px);
+    width: 520px;
+    border: 1px solid beige;
 }
